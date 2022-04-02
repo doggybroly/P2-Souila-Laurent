@@ -1,0 +1,323 @@
+/* responsive header */
+@media screen and (max-width:770px) { 
+    body{
+            margin: 0;
+        } 
+    nav{
+        display: block;
+        position: relative;
+        margin: 0;
+        height: 100px;
+        width: 100%;
+        border: 3px solid #F2F2F2;
+    }
+    nav img{
+       position: relative;
+       left: 140px;
+       margin-bottom: 20px;
+    }
+    .menu{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        height: 35px;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        border: 1px solid transparent;
+    }
+    .menu:hover{
+        border-top:0;
+        border-bottom: 3px solid blue;
+    }
+    .lien{
+        display: flex;
+        justify-content: space-between; 
+        position: relative;
+        left: -30px;
+    }
+   
+    .ti{
+       padding-top:20px;
+    }
+    .ti h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .bar{
+        display: flex;
+        justify-content: center;
+    }
+    .bar .desk{
+        display: none;
+    }
+    .bar .mobile{
+        display: block;
+        text-decoration: none;
+    }
+    .fa-location-dot{
+        display: flex; 
+        align-items: center;
+        font-size: 18px;
+        height: 10px;
+        padding: 20px;
+        border-bottom-left-radius:15px ;
+        border-top-left-radius:15px ;
+    }
+    input{
+        width: 500px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .filtre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;   
+    }
+    .filtre .icon{    
+        width: 215px;
+        text-align: center;
+        margin: 5px;
+    }
+    .filtre .eco{
+        width: 165px;
+    }
+    .filtre .fam{
+        width: 120px;
+    }
+    .filtre .rom{
+        width: 160px;
+        position: relative;
+        left: -30px;
+    }
+    .info{
+        position: relative;
+        top: -15px;
+    }
+}
+
+    /* responsive flexbox */
+    @media screen and (max-width:770px){
+        h1{
+            font-size: 22px;
+        }
+        .heb{
+            flex-direction:column-reverse;
+            margin: 0;       
+            
+        } 
+        .heb,.plein,footer{
+            position: relative;
+            top: 1300px;
+        }       
+        .flex2{
+            width:770px;
+            padding-bottom: 30px;
+            border-radius: 0;
+        }
+        .pupo, .graph img{
+            position: relative;
+            left: 40px;
+        }
+        .flex1{
+            background-color: white;
+            width:770px;
+            margin: 0;
+        }
+       .cham{          
+           display: block;
+           width: 320px;
+           margin-bottom: 20px;
+           position: relative;
+           left: 30px;
+       } 
+       .cham img{
+           width: 320px;
+       }  
+       .flex1 a{
+          margin-left: 10px;
+       } 
+       .plein{
+           position: relative;
+           left: 30px;
+       } 
+       .plein h3{
+           position: relative;
+           left: 0px;
+       }  
+        .activ{
+            display: block;
+        }
+        .air,.air img{
+            width: 320px;
+            height: 120px;
+        }
+        .air{
+            height: 150px;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width:770px) {
+       
+        .foot{
+            display: block;
+            position: relative;
+            left: 30px;
+        }
+    }
+
+    /* reponsive header */
+    @media screen and (min-width:771px) and (max-width:1540px){
+        body{
+            margin: 0;
+        }
+    nav{
+       display: flex;
+       justify-content: center;
+    }
+    nav img{
+        position: relative;
+        left: -100px;
+    }
+    .lien{
+        position: relative;
+        left: -30px;
+    }
+    
+    .ti{
+        text-align: center;
+    }
+    .bar{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+    /* reponsive flexbox */
+    @media screen and (min-width:771px) and (max-width:1540px){
+    .heb{
+        flex-direction: column-reverse;
+        margin: 0;
+        max-width: 760px;
+        height: 850px;
+        position: relative;
+        left: 20px;
+    }
+    .flex2{
+        max-width: 740px;
+        margin-bottom: 30px;
+    }
+    .pupo{
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .stars label{
+        position: relative;
+        top: 35px;
+    }
+    .graph{
+        display: flex;
+        justify-content:space-between;
+    }
+    .graph img{
+        position: relative;
+        left: -20px;
+    }
+    .plus{
+        padding: 5px ;
+        margin-left: 30px;
+        margin-right: 5px;
+        background-color: white;
+        width: 200px;
+        height: 190px;
+        border-radius: 15px;
+        position: relative;
+        left: -8px;
+        display: inline-block;
+    }
+    .plus img{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 0px;
+        width: 200px;
+        height: 100px;
+    }
+    .plus h4{
+        position: relative;
+        top: 60px;
+    }
+    .plus p{
+        position: relative;
+        top: 60px;
+    }
+    .stars i{
+        position: relative;
+        top: 30px;
+    }
+}
+
+    /* reponsive activité */
+    @media screen and (min-width:771px) and (max-width:1540px){
+    .plein{
+        margin-top: -25px;
+    }
+    .activ{
+        max-width: 760px;
+        margin: 0;
+    }
+    .air{
+        width: 166px;
+        height: 270px;
+        margin-left: 14px;
+    }
+    .air p{
+        font-size: 15px;
+        position: relative;
+        top: -2px;
+    }
+    .air img{
+        width: 166px;
+    }
+    .pic1{
+        height: 242px;
+    }
+    
+    .pic2{
+        height: 100px;
+    }
+    .cadre{
+        height: 130px;
+    }
+    .cadre p{
+        position: relative;
+        top: 10px; 
+    }
+    .pic3{
+        height: 90px;
+    }
+    .little{
+        height: 120px;
+    }
+    .little p{
+        position: relative;
+        top: -1px;
+    }
+    .lit p{
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* responsive footer */
+@media screen and (min-width:771px) and (max-width:1540px){
+    footer{
+        max-width: 775px;
+    }
+    .foot{
+     position: relative;
+     left: 0;
+    }
+}

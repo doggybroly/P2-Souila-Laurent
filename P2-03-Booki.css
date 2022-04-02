@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    margin-left: 350px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px;
+    margin-left: 30px;
+    max-width: 1138px;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;    
+}
+.menu:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+h1{
+    position: relative;
+    left: 8px;
+    margin-bottom: 5px;
+}
+.titre{
+    padding: 10px;
+    margin-left: 20px;
+}
+.ti{
+    margin-bottom:15px ;
+}
+.ti p{
+    font-size: 18px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5px;
+}
+input {
+    font-weight:bold;
+}
+.desk{
+    text-decoration: none;
+    color: white;
+    background-color: #0065FC;
+    padding: 10px;
+    border-bottom-right-radius:15px ;
+    border-top-right-radius:15px ;   
+}
+
+.bar input{
+    padding: 10px;
+    border: 1px solid rgb(226, 220, 220);  
+}
+.bar .mobile{
+    display: none;
+    text-decoration: none;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.filtre p{
+    margin-right: 30px;
+    font-weight: bold; 
+}
+.filtre a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border: 2px solid rgb(204, 197, 197);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    max-height: 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(204, 197, 197);
+    border-radius: 50px;
+    margin-right: 20px;  
+     transition: 0.5s ease;
+}
+.icon:hover{
+    background-color: #0065FC;
+    color: white;
+    transition: 0.5s ease;
+}
+.icon i{
+    border: 2px solid rgba(0, 132, 255,0.1);
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.fa-child-reaching{
+    font-size: 17px;
+    width:18px;
+    text-align: center;
+}
+
+.icon .theme{
+    margin-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fa-location-dot{
+    display: flex; 
+    align-items: center;
+    height: 10px;
+    padding: 15px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius:15px ;
+    border-top-left-radius:15px ;
+}
+.fa-magnifying-glass{  
+    display: flex; 
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    width: 18px;  
+    padding: 18px;
+    border-radius: 15px;
+    position: relative;
+    left: -10px;
+}
+.fa-info{
+    width: 15px;
+    color: blue;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128,0.3);
+    padding: 8px;
+    margin: 10px 5px 20px 0 ;
+    border-radius: 25px;
+}
+.fa-chart{
+    position: absolute;
+}
+.heb{
+    width: 1138px;
+    height: 520px;
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+.flex1{
+    flex: 4;
+    flex-direction: column;
+    background-color: grey;
+    margin-right: 20px;
+    border-radius:15px;
+    background-color: #F2F2F2;
+}
+.flex2{
+    flex: 2;
+    flex-direction: column;
+    background-color: blue;
+    border-radius:15px;
+    background-color:#F2F2F2;
+}
+h3{
+    margin: 25px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.flex1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    margin-bottom: 30px;   
+}
+.chambre1{
+    margin-bottom: 20px;
+}
+.cham{
+    padding: 5px;
+    margin-left: 30px;
+    background-color: white;
+    width: 200px;
+    height: 175px;
+    border-radius: 15px;
+    position: relative;
+    left: -8px;
+    display: inline-block;
+}
+.cham img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.cham img,h4,p{
+    margin-bottom: 5px;
+}
+.cham h4,p{
+    position: relative;
+    left:10px;
+    cursor: pointer;
+}
+h4,.air p{
+    transition: 0.5s ease;
+}
+ h4:hover,.air p:hover{
+    scale: 1.02;
+    letter-spacing: 0.5px;
+    color: #0065FC;
+    transition: 0.5s ease;
+}
+.star,.stars{
+    transform: rotateY(180deg);
+    float: left;
+    position: relative;
+    left: 10px;
+    font-size: 12px;
+}
+.stars{
+    position: relative;
+    top: 30px;
+}
+label{
+    margin-left:-12px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    cursor: pointer;
+}
+label:before{
+    content: "\f005";
+    font-family: fontAwesome;
+    color: grey;
+    position: relative;
+
+}
+label:after{
+    content: "\f005";
+    font-family: fontAwesome;
+    color: #0065FC;
+    position: relative;
+    left:-15px;
+    opacity: 0;
+}
+input:checked ~ label:after{
+    opacity: 1;
+}
+.star input,.stars input{
+    display: none;
+}
+.plus{
+    padding: 5px;
+    margin-left: 20px;
+    background-color: white;
+    width: 320px;
+    height: 120px;
+    border-radius: 15px;
+}
+.plus img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.graph{
+    display: flex;
+    align-items: center;
+}
+.graph img{
+    position: relative;
+    top: 8px;
+    margin-left: 100px;
+}
+.popu{
+    display: inline-block;
+    position: relative;
+    top: -60px;
+}
+.popu h4 {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.plein{
+    display: flex;
+    margin-bottom: 30px;
+}
+.plein,.h3{
+    display: inline-block;
+}
+.activ{
+    display: flex;
+}
+.act{
+    display: flex;
+}
+.plein p{
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+.air{
+    border: 1px solid rgba(128, 128, 128,0.2);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.air img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.air,.cham,.plus{
+    box-shadow: 0 5px 10px 2px rgba(204, 204, 204,0.5) ;
+}
+footer{
+    background-color:#F2F2F2;
+    max-width: 1190px;
+}
+.foot{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;   
+    position: relative;
+    left: -100px;
+}
+.foote h3{
+    position: relative;
+    left: -5px;
+    padding-bottom: 10px;
+}
+.foot a{
+    display: block;
+    margin-top: -10px;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10px;
+}
+
